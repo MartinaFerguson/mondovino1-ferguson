@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/img/backgorund1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, h2{
+    font-family: 'Zen Loop', cursive;
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-size: 50px;
+}
+
+.nav{
+    background-color: aliceblue;
+    opacity: 0,5px;
+}
+
+.nav .text-sm-center{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    color: #0b1111;
+}
+
+.nav-link:hover,
+.nav-link_active {
+  padding: 4px 4px;
+  border-radius: 2px;
+  font-weight: 600;
+  transition: 0.5s;
+  }
+
+
+#galeria .container{
+    align-items: center;
+}
+
+#galeria img{
+    width: 100%;
+    height: auto;
+}
+
+
+.col-lg-4{
+    padding: 50px;
+}
+
+footer{
+    background-color: aliceblue;
+    opacity: 0,5;
+    display: flex;
+}
