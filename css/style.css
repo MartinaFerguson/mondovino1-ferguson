@@ -16,9 +16,29 @@ h2{
     font-size: 50px;
 }
 
+#searchBasket{
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+
+
+
+.pay-button{
+    border: none;
+    background-color: none;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: #0b1111;
+    
+    
+} 
+
 .nav{
-    background-color: aliceblue;
     opacity: 0,5px;
+    position: relative;
 }
 
 .nav .text-sm-center{
@@ -33,24 +53,61 @@ h2{
 .nav-link:hover,
 .nav-link_active {
   padding: 4px 4px;
-  border-radius: 2px;
   font-weight: 600;
   transition: 0.5s;
-  }
-
-
-#galeria .container{
-    align-items: center;
-}
-
-#galeria img{
-    width: 100%;
-    height: auto;
+  background-color: #121612;
+  color: white;
 }
 
 
-.col-lg-4{
-    padding: 50px;
+
+.page-content{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.product-container{
+    margin: 20px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0.2);
+    background-color: white;
+
+}
+.product-container h3{
+    font-family: 'Smooch Sans', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.product-container:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0.2);
+}
+.product-container img{
+    width: 300px;
+}
+
+.add-button{
+    border: 2px solid;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 5px 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+  
+.add-button:hover{
+    background-color: #121612;
+    color: white;
 }
 
 footer{
