@@ -26,12 +26,16 @@
       <a class="flex-sm-fill text-sm-center nav-link" href="#">Bodegas</a>
       <a class="flex-sm-fill text-sm-center nav-link" href="#">Sobre nosotros</a>
       <a class="flex-sm-fill text-sm-center nav-link" href="#">Contacto</a>
-      <button class="pay-button">Pagar</button>
-      <div id="searchBasket">
+      
+      <!-- <div id="searchBasket">
         <i class="fa-solid fa-basket-shopping" href="#"></i>
         <i class="fa-solid fa-magnifying-glass" href="#"></i>
-      </div>
+      </div> -->
     </nav>
+
+    <div class="pay-button">
+      <button id="pay" class="pay-button" onclick="totalProducts()">Pagar</button>
+    </div>
 
     <section class="page-content">
           <div class="product-container">
@@ -39,6 +43,8 @@
             <h3>Nombre del producto</h3>
             <h3>$2500</h3>
             <button class="add-button" onclick="add('product-1', 2500)">Agregar</button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
+
           </div>
 
           <div class="product-container">
@@ -46,6 +52,7 @@
             <h3>Nombre del producto</h3>
             <h3>$1500</h3>
             <button class="add-button" onclick="add('product-2', 1500)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -53,6 +60,7 @@
             <h3>Nombre del producto</h3>
             <h3>$3000</h3>
             <button class="add-button" onclick="add('product-3', 3000)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -60,6 +68,7 @@
             <h3>Nombre del producto</h3>
             <h3>$3500</h3>
             <button class="add-button" onclick="add('product-4', 3500)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -67,6 +76,7 @@
             <h3>Nombre del producto</h3>
             <h3>$2000</h3>
             <button class="add-button" onclick="add('product-5', 2000)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -74,6 +84,7 @@
             <h3>Nombre del producto</h3>
             <h3>$2500</h3>
             <button class="add-button" onclick="add('product-6', 2500)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -81,6 +92,7 @@
             <h3>Nombre del producto</h3>
             <h3>$4000</h3>
             <button class="add-button" onclick="add('product-7',4000)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -88,6 +100,7 @@
             <h3>Nombre del producto</h3>
             <h3>$4200</h3>
             <button class="add-button" onclick="add('product-8', 4200)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -95,6 +108,7 @@
             <h3>Nombre del producto</h3>
             <h3>$4150</h3>
             <button class="add-button" onclick="add('product-9', 4150)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -102,6 +116,7 @@
             <h3>Nombre del producto</h3>
             <h3>$2500</h3>
             <button class="add-button" onclick="add('product-10', 2500)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -109,6 +124,7 @@
             <h3>Nombre del producto</h3>
             <h3>$3500</h3>
             <button class="add-button" onclick="add('product-11', 3500)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
 
           <div class="product-container">
@@ -116,6 +132,7 @@
             <h3>Nombre del producto</h3>
             <h3>$3700</h3>
             <button class="add-button" onclick="add('product-12', 3700)">Agregar </button>
+            <!-- <button class="remove-button" onclick="remove('product-1')">Quitar</button> -->
           </div>
     </section>
 
