@@ -21,11 +21,11 @@ for (let i = 1; i < 100; i++){
         edad = prompt ("Por favor ingrese su edad")
     
 
-    }else if ((edad>=18)){
+    }else if (edad>=18){
         alert('Bienvenido a Mondo Vino!')
         break
 
-    }else ((edad<18))
+    }else
     alert ('PROHIBIDA SU VENTA A MENORES DE 18 AÑOS')
 }
        
